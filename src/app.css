@@ -1,0 +1,73 @@
+
+.form{
+  box-shadow: -1px 1px 60px 10px black;
+  background: rgba0(0,0,0,4);
+  border-radius: 10px;
+  border:1px solid green;
+  transition: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+.form:hover{
+  background: rgba0(0,0,0,3);
+  transform: skew(2deg);
+
+}
+
+h3{
+  font-size:25px;
+  color:gold
+}
+label{
+  font-weight: normal;
+  margin-top: 15px;
+  color:white;
+  font-size:19px;
+}
+.formcontrol{
+  background:transparent;
+  border-radius: 0px;
+  border:0 solid transparent;
+  border-bottom: 1px solid white;
+  font-size:18px;
+  margin-top:12px;
+  height:40px;
+  color:white;
+  width:100%
+}
+.customBtn{
+  margin-top:20px;
+  width:100%
+}
+.logo{
+  float:right;
+}
+.logo img{
+  float:right;
+  width:20%;
+}
+
+.alert{
+  background-color: rgba(255, 0, 0, 0.329);
+  border: 2px solid red;
+  border-radius: 0;
+  color:gold
+}
+
+.wallet-text{
+  margin-top:10px;
+}
+
+.bg-wallet{
+  background-color: gold;
+  color:red;
+}
+
+.hidden{
+  visibility: hidden;
+}
+
+
+.soon{
+  background-color: red;
+}

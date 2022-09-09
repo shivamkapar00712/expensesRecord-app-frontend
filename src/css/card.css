@@ -1,0 +1,23 @@
+.cards{
+  background-color: rgba(11, 255, 222, 0.445);
+  height: 170px;
+  border-radius: 5px;
+  box-shadow: -10px 1px 15px 15px rgba(0, 0, 0, 0.784);
+  transition: all;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+.cards h5{
+  height: 100%;
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
+  margin: 40% 0;
+  font-family: cursive;
+  color:gold;
+}
+.cards:hover{
+  transform:skewX(4deg);
+  background-color: rgba(11, 255, 222, 0.645)
+  
+}

@@ -1,0 +1,17 @@
+.cube{
+  background-color: rgba(255, 0, 0, 0);
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 0, 0, 0);
+  transition: all;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+
+}
+.cube:hover{
+  background-color: rgba(13, 255, 53, 0.421);
+  border: 1px solid rgba(13, 255, 53, 0.821);
+  transform: scale(1.5);
+
+}

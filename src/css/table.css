@@ -1,0 +1,19 @@
+.table2{
+  border: none;
+  width:100%;
+  color:gold;
+  text-align: center;
+
+}
+.table2 thead{
+  background-color: rgba(0, 0, 0, 0.6);
+  color:goldenrod;
+  font-size: large;
+}
+.table2 tbody tr{
+  transition: all;
+  transition-duration: 0.4s;
+}
+.table2 tbody tr:hover{
+  transform: scale(1.05);
+}

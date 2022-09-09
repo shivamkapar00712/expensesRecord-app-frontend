@@ -3,7 +3,7 @@ import {toast} from 'react-toastify'
 import * as authService from './authService';
 const { apiEndPoint } = process.env
 
-axios.defaults.baseURL = 'https://obscure-gorge-91125.herokuapp.com';
+axios.defaults.baseURL = 'https://radiant-hollows-74975.herokuapp.com';
 console.log(process.env)
 
 axios.defaults.headers.common['Authorization'] = authService.getJWT();

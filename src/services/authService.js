@@ -18,7 +18,7 @@ export async function login(email,password){
   try {
     console.log('loggin in in process')
     const {data} = await http.post(
-      `http://localhost:5000/login`,
+      `/login`,
       {
         email,
         password
